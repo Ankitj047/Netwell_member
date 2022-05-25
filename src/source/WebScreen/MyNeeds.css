@@ -1,0 +1,197 @@
+.myneeds {
+  border: 1px solid red;
+  margin-top: 100px;
+  width: 80%;
+  /* display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center; */
+  /* float:center; */
+  margin-left: auto;
+  margin-right: auto;
+
+  background-color: white;
+}
+
+.progInfoContainer {
+  padding: 0 !important;
+  margin-top: 80px;
+  position: relative;
+}
+.commonWrap {
+  padding-top: 55px;
+}
+.commonWrap_MyNeeds {
+  /* margin: 0 0 40px 0; */
+}
+.commonWrap h2 {
+  margin: 0;
+}
+.progInfoSection {
+  padding: 20px;
+  background: #ffffff;
+}
+.progInfoTitle {
+  font-family: Roboto;
+  font-size: 42px;
+  font-weight: 300;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1;
+  letter-spacing: normal;
+  text-align: left;
+  color: #543379;
+  text-transform: uppercase;
+}
+.progInfoFooter {
+  background: #f7f7f7;
+  border-top: 1px solid #bdbdbd;
+  padding: 5px;
+}
+.elevation {
+  width: 70px;
+  height: 70px;
+  border-radius: 35px;
+  box-shadow: 0 2.5px 5px 0 rgba(0, 0, 0, 0.2), 0 1.3px 12.5px 0 rgba(0, 0, 0, 0.12), 0 5px 6.3px 0 rgba(0, 0, 0, 0.14);
+  background-color: #41b5c2;
+}
+.footerTextLeft {
+  /* font-weight: 500; */
+  /* margin: 0;
+    font-family: Roboto;
+    font-size: 14px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-weight: bold;
+    font-style: normal;
+    line-height: 1.14;
+    letter-spacing: normal;
+    
+    color: #333333;
+    padding: 2px 0; */
+  position: absolute;
+  margin: 0;
+  font-family: Roboto;
+  font-size: 14px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.14;
+  letter-spacing: normal;
+  text-align: right;
+  color: #333333;
+  /* padding: 2px 0; */
+  padding-top: 17px;
+}
+.dpFlex {
+  display: flex;
+  flex-direction: row-reverse;
+}
+.footerText {
+  padding: 9px 15px 0 0;
+}
+.footerText p {
+  margin: 0;
+  font-family: Roboto;
+  font-size: 14px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.14;
+  letter-spacing: normal;
+  text-align: right;
+  color: #333333;
+  padding: 2px 0;
+}
+.footerText p:first-child {
+  font-weight: bold;
+}
+.tablebackground {
+  background-color: white;
+  /* border: 1px solid red; */
+  height: 350px;
+  padding: 10px 30px;
+  overflow: auto;
+}
+
+.headercellColor {
+  /*color: #8c827a !important;*/
+}
+.sortheadercellColor {
+  /* color: #8c827a !important; */
+  background-color: #f9f9fa;
+}
+.rowcellcolor {
+  font-size: 16px;
+  /*color: #000000 !important;*/
+  font-family: Roboto;
+  font-weight: 400;
+}
+.sortrowcellcolor {
+  font-size: 16px;
+  /*color: #000000 !important;*/
+  font-family: Roboto;
+  font-weight: 400;
+  background-color: #f9f9fa;
+}
+
+.inreview_button {
+  background-color: #eb5757;
+  color: #ffffff;
+  /* width: 65px; */
+  height: 16px;
+  font-family: Roboto;
+  font-size: 12px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.33;
+  letter-spacing: 0.4px;
+  text-align: left;
+  padding: 5px 10px;
+  border-radius: 4px;
+}
+
+.final_button {
+  background-color: #27ae60;
+  color: #ffffff;
+  /* width: 65px; */
+  height: 16px;
+  font-family: Roboto;
+  font-size: 12px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.33;
+  letter-spacing: 0.4px;
+  text-align: left;
+  padding: 5px 10px;
+  border-radius: 4px;
+}
+
+.inner_viewbutn {
+  color: red;
+}
+
+.Audit {
+  background-color: #27ae60;
+}
+.Authorized {
+  background-color: #a9a9a9;
+}
+.Denied {
+  background-color: #eb5757;
+}
+
+.Reversed {
+  background-color: #ffa500;
+}
+.Pending {
+  background-color: #ffa500;
+}
+.ISSUE {
+  background-color: #ffa500;
+}
+.Logged {
+  background-color: #eb5757;
+}

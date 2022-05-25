@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="cache-control" content="no-cache" />
+    <meta http-equiv="expires" content="0" />
+    <meta http-equiv="pragma" content="no-cache" />
+    <link rel="shortcut icon" href="%PUBLIC_URL%/favicon.ico" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#000000" />
+    <meta name="description" content="Web site created using create-react-app" />
+
+    <link rel="apple-touch-icon" href="logo192.png" />
+    <link href="https://fonts.googleapis.com/css2?family=Ranchers&display=swap" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css2?family=Anton&display=swap" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css2?family=Oswald&display=swap" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap" rel="stylesheet" />
+
+    <script type="text/javascript" data-cfasync="false">
+      let CHAT_BOX_Id = sessionStorage.getItem('CHAT_BOX_Id')
+      window.purechatApi = {
+        l: [],
+        t: [],
+        on: function() {
+          this.l.push(arguments)
+        }
+      }
+      ;(function() {
+        let done = false
+        let script = document.createElement('script')
+        script.async = true
+        script.type = 'text/javascript'
+        script.src = 'https://app.purechat.com/VisitorWidget/WidgetScript'
+        document
+          .getElementsByTagName('HEAD')
+          .item(0)
+          .appendChild(script)
+        if (CHAT_BOX_Id) {
+          script.onreadystatechange = script.onload = function(e) {
+            if (!done && (!this.readyState || this.readyState == 'loaded' || this.readyState == 'complete')) {
+              let w = new PCWidget({ c: CHAT_BOX_Id, f: true })
+              done = true
+            }
+          }
+        }
+      })()
+
+      function pureChat() {
+        window.purechatApi = {
+          l: [],
+          t: [],
+          on: function() {
+            this.l.push(arguments)
+          }
+        }
+        ;(function() {
+          let done = false
+          let script = document.createElement('script')
+          script.setAttribute('id', 'pureChatScript')
+
+          script.async = true
+          script.type = 'text/javascript'
+          script.src = 'https://app.purechat.com/VisitorWidget/WidgetScript'
+          document
+            .getElementsByTagName('HEAD')
+            .item(0)
+            .appendChild(script)
+          script.onreadystatechange = script.onload = function(e) {
+            if (!done && (!this.readyState || this.readyState == 'loaded' || this.readyState == 'complete')) {
+              let w = new PCWidget({ c: '623b51f6-92f7-468f-86cf-97b1075dadc4', f: true })
+              done = true
+            }
+          }
+        })()
+        window.purechatApi.on('chatbox:ready', function() {
+          window.purechatApi.set('chatbox.expanded', true)
+          window.purechatApi.set('chatbox.enableTranscriptDownload', false)
+          window.purechatApi.set('chatbox.askForRating', true)
+        })
+
+        window.purechatApi.on('chatbox:collapse', function(args) {
+          let script = document.getElementById('purechat-frame')
+          script.parentNode.removeChild(script)
+          let script1 = document.getElementById('purechat-container')
+          script1.parentNode.removeChild(script1)
+        })
+      }
+    </script>
+
+    <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
+    <title>Member Portal</title>
+    <script src="./config.js"></script>
+  </head>
+
+  <body style="background-color: #e4e4e4;">
+    <noscript>You need to enable JavaScript to run this app.</noscript>
+    <div id="root"></div>
+  </body>
+</html>

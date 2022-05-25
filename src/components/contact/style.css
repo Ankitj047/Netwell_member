@@ -1,0 +1,64 @@
+/* @media (min-width: 1200px) {
+	.container {
+		width: 720px;
+		max-width: 100%;
+	}
+}
+@media (min-width: 992px) {
+	.container {
+		width: 720px;
+		max-width: 100%;
+	}
+} */
+
+@media (min-width: 768px) {
+  .container {
+    width: 720px;
+    max-width: 100%;
+  }
+
+  .contact-section1 {
+    width: 720px;
+    height: 420px;
+    padding: 20px;
+    background-color: #fafafa;
+    margin-top: 90px;
+  }
+  .contact-details1 {
+    font-family: 'Palatino Linotype', 'Book Antiqua', Palatino, serif;
+    color: #333333;
+    font-size: 18px;
+    line-height: 32px;
+  }
+  .contact-highlight1 {
+    font-family: 'Palatino Linotype', 'Book Antiqua', Palatino, serif;
+    color: #8d1342;
+    font-size: 22px;
+    line-height: 32px;
+  }
+}
+
+@media (max-width: 768px) {
+  .container {
+    width: 540px;
+    max-width: 100%;
+  }
+  .contact-section1 {
+    height: 280px;
+    padding: 20px;
+    background-color: #fafafa;
+    margin-top: 10px;
+  }
+  .contact-details1 {
+    font-family: 'Palatino Linotype', 'Book Antiqua', Palatino, serif;
+    color: #333333;
+    font-size: 15px;
+    line-height: 23px;
+  }
+  .contact-highlight1 {
+    font-family: 'Palatino Linotype', 'Book Antiqua', Palatino, serif;
+    color: #8d1342;
+    font-size: 17px;
+    line-height: 23px;
+  }
+}

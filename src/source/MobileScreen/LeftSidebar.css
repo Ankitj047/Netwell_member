@@ -1,0 +1,204 @@
+.mob_leftdrawer {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  padding-top: 2vw;
+  /* padding-left: 20px; */
+  /* border: 2px solid red; */
+}
+.mob_leftdrawer_logo {
+  width: 171px;
+  /* height: 77px; */
+  object-fit: contain;
+}
+.mob_leftdrawer_username {
+  /* width: 165px; */
+  /* height: 24px; */
+  /* font-family: Roboto; */
+  font-size: 20px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: rgba(0, 0, 0, 0.87);
+
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.mob_leftdrawer_menu {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+}
+.mob_leftdrawer_menu_name_selected {
+  /* width: 68px; */
+  /* height: 24px; */
+  /* font-family: Roboto; */
+  font-size: 14px;
+  font-weight: 500;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.71;
+  letter-spacing: normal;
+  color: #420045;
+
+  margin-left: 20px;
+}
+
+.mob_leftdrawer_menu_name {
+  /* width: 81px; */
+  /* height: 24px; */
+  /* font-family: Roboto; */
+  font-size: 14px;
+  font-weight: 500;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.71;
+  letter-spacing: normal;
+  color: rgba(0, 0, 0, 0.87);
+
+  margin-left: 20px;
+}
+
+.mob_ld_user_div_logo_img {
+  /* display: flex;
+    justify-content: center;
+    align-items: center; */
+  max-width: 180px;
+  /* margin: 20px 0px; */
+  padding-left: 20px;
+  height: 5rem;
+}
+
+.mob_ld_user_div {
+  display: flex;
+  justify-content: center;
+  /* align-items: center; */
+  margin-bottom: 20px;
+  padding-left: 20px;
+}
+.mob_ld_username {
+  margin-left: 10px;
+  width: 155px;
+  /* height: 22px; */
+  font-family: Roboto;
+  font-size: 14px;
+  font-weight: 500;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.71;
+  letter-spacing: 0.1px;
+  color: #000000;
+  text-transform: capitalize;
+  /* border: 1px solid red; */
+}
+
+.mob_ld_menu_container {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  /* border:1px solid red; */
+  width: 100%;
+  margin-bottom: 5px;
+  cursor: pointer;
+  padding: 10px 0px;
+  padding-left: 20px;
+}
+.mob_ld_menu_container_selected {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  /* border:1px solid red; */
+  width: 100%;
+  margin-bottom: 5px;
+  cursor: pointer;
+  padding: 10px 0px;
+  padding-left: 20px;
+  background-color: #e5e7ea;
+  border-right: 5px solid #543379;
+}
+.mob_ld_menu_img {
+  /* background-image: url('../Images/Drawer/documents icon.png');
+    background-repeat: no-repeat;
+    background-size: contain, cover;
+    height: 35px;
+    width: 37px; */
+}
+.mob_ld_menu_name {
+  /* width: 73px; */
+  height: 24px;
+  font-family: Roboto;
+  font-size: 14px;
+  font-weight: 500;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.71;
+  letter-spacing: 0.1px;
+  color: rgba(0, 0, 0, 0.6);
+  /* border: 1px solid green; */
+}
+.mob_ld_menu_name_version {
+  height: 24px;
+  font-family: Roboto;
+  font-size: 12px;
+  font-weight: 500;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.71;
+  letter-spacing: 0.1px;
+  color: rgba(0, 0, 0, 0.6);
+}
+
+.mob_ld_menu_container:hover {
+  background-color: #e5e7ea;
+  border-right: 5px solid #543379;
+}
+
+.mob_ld_menu_container:hover > .ld_menu_img {
+  /* border: 1px solid red; */
+  /* background-image: url('../Images/Drawer/documents icon (active).png');
+    height: 28px;
+    width: 30px; */
+  /* object-fit: contain; */
+}
+
+.mob_ld_menu_container:hover > .ld_menu_name {
+  font-weight: 900;
+  color: red;
+  border: 1px solid green;
+}
+
+.mob_version_no {
+  font-size: 12px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* border: 1px solid red; */
+  margin-left: 20px;
+  padding: 10px 0px;
+  float: center;
+}
+
+@media screen and (min-width: 765px) and (max-width: 1600px) {
+  .mob_ld_username {
+    width: auto;
+    height: auto;
+    font-size: 18px;
+  }
+  .mob_ld_menu_name {
+    font-size: 18px;
+    border: none;
+    line-height: 1.4;
+  }
+  .mob_ld_menu_name_version {
+    font-size: 12px;
+    border: none;
+    line-height: 1.4;
+  }
+  .mob_ld_menu_img {
+    width: 28px;
+  }
+}

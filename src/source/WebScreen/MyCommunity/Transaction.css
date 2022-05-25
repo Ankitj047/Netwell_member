@@ -1,0 +1,603 @@
+.myneeds {
+  border: 1px solid red;
+  margin-top: 100px;
+  width: 80%;
+  /* display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center; */
+  /* float:center; */
+  margin-left: auto;
+  margin-right: auto;
+
+  background-color: white;
+}
+
+.progInfoContainer {
+  padding: 0 !important;
+  margin-top: 80px;
+  position: relative;
+}
+.commonWrap {
+  padding-top: 55px;
+}
+.commonWrap h2 {
+  margin: 0;
+}
+.progInfoSection {
+  padding: 20px;
+  background: #ffffff;
+}
+.progInfoTitle {
+  font-family: Roboto;
+  font-size: 42px;
+  font-weight: 300;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1;
+  letter-spacing: normal;
+  text-align: left;
+  color: #543379;
+  text-transform: uppercase;
+}
+.progInfoFooter {
+  background: #f7f7f7;
+  border-top: 1px solid #bdbdbd;
+  padding: 20px;
+}
+.elevation {
+  width: 70px;
+  height: 70px;
+  border-radius: 35px;
+  box-shadow: 0 2.5px 5px 0 rgba(0, 0, 0, 0.2), 0 1.3px 12.5px 0 rgba(0, 0, 0, 0.12), 0 5px 6.3px 0 rgba(0, 0, 0, 0.14);
+  background-color: #41b5c2;
+}
+.dpFlex {
+  display: flex;
+  flex-direction: row-reverse;
+}
+.footerText {
+  padding: 9px 15px 0 0;
+}
+.footerText p {
+  margin: 0;
+  font-family: Roboto;
+  font-size: 14px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.14;
+  letter-spacing: normal;
+  text-align: right;
+  color: #333333;
+  padding: 2px 0;
+}
+.footerText p:first-child {
+  font-weight: bold;
+}
+.tablebackgroundouter {
+  background-color: white;
+  /* border: 1px solid red; */
+  /* height: 300px; */
+  padding: 10px 30px;
+  /* overflow: auto; */
+}
+.TitleCurrentPaymentMethod{
+  flex-grow: 0;
+  font-family: Roboto;
+  font-size: 14px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: 1.12px;
+  text-align: left;
+  color: #454d58;
+}
+.PaymentInfoTitle {
+  font-family: Roboto;
+  font-size: 20px;
+  font-weight: 300;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1;
+  letter-spacing: normal;
+  text-align: left;
+  color: #543379;
+  text-transform: uppercase;
+}
+.numberPaymentMethod{
+  flex-grow: 0;
+  font-family: Roboto;
+  font-size: 16px;
+  font-weight: 500;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: left;
+  color: #000;
+}
+.tablefixheight {
+  background-color: white;
+  /* border: 1px solid red; */
+  height: 280px;
+  /* padding: 10px 30px; */
+  overflow: auto;
+}
+
+.headercellColor {
+  /* color: #8c827a !important; */
+  color: red;
+}
+.sortheadercellColor {
+  /* color: #8c827a !important; */
+  background-color: #f9f9fa;
+}
+.rowcellcolor {
+  font-size: 16px;
+  /*color: #000000 !important;*/
+  font-family: Roboto;
+  font-weight: 400;
+}
+.sortrowcellcolor {
+  font-size: 16px;
+  /*color: #000000 !important;*/
+  font-family: Roboto;
+  font-weight: 400;
+  background-color: #f9f9fa;
+}
+
+.inreview_button {
+  background-color: #eb5757;
+  color: #ffffff;
+  /* width: 65px; */
+  height: 16px;
+  font-family: Roboto;
+  font-size: 12px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.33;
+  letter-spacing: 0.4px;
+  text-align: left;
+  padding: 5px 10px;
+  border-radius: 4px;
+}
+
+.final_button {
+  background-color: #27ae60;
+  color: #ffffff;
+  /* width: 65px; */
+  height: 16px;
+  font-family: Roboto;
+  font-size: 12px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.33;
+  letter-spacing: 0.4px;
+  text-align: left;
+  padding: 5px 10px;
+  border-radius: 4px;
+}
+
+.inner_viewbutn {
+  color: red;
+}
+
+.Footer-error-msg {
+  color: red;
+  font-size: 16px;
+  font-weight: 500;
+
+  /* float: right; */
+  margin-right: 34% !important;
+}
+/* ----------draft day-------------------- */
+
+.effectiveDateSection {
+  width: 100%;
+  font-size: 15px;
+  font-family: Roboto, Helvetica, Arial, sans-serif;
+  background: #fee6c2;
+  padding: 8px 0px;
+  border-radius: 8px;
+  margin-left: 0;
+  margin-right: 0;
+  margin-bottom: 30px;
+}
+.effectiveDateSection div {
+  padding: 0 0 0 15px;
+}
+.effectiveDateSection row {
+  margin: 0px !important;
+}
+.effectiveDateSectionWeb {
+  width: 85%;
+  font-size: 15px;
+  font-family: Roboto, Helvetica, Arial, sans-serif;
+  background: #fee6c2;
+  padding: 8px 0px;
+  border-radius: 8px;
+  margin-left: 0;
+  margin-right: 0;
+  margin-bottom: 30px;
+}
+.effectiveDateSectionWeb div {
+  padding: 0 0 0 15px;
+}
+.effectiveDateSectionWeb row {
+  margin: 0px !important;
+}
+.recurringDateSection {
+  width: 85%;
+  font-size: 15px;
+  font-family: Roboto, Helvetica, Arial, sans-serif;
+  background: #fee6c2;
+  padding: 8px 0px;
+  border-radius: 8px;
+  margin-left: 0;
+  margin-right: 0;
+  margin-bottom: 30px;
+}
+.recurringDateSection div {
+  padding: 0 0 0 15px;
+}
+.recurringDateSection row {
+  margin: 0px !important;
+}
+.paymentDatesWrapper {
+  width: 100%;
+  font-size: 15px;
+  font-family: Roboto, Helvetica, Arial, sans-serif;
+}
+
+.paymentDatesWrapper h5 {
+  font-size: 16px;
+  font-family: Roboto, Helvetica, Arial, sans-serif;
+  font-weight: bold;
+  margin: 0 0 10px 0;
+}
+
+.paymentDatesWrapper h6 {
+  font-size: 12px;
+  font-family: Roboto, Helvetica, Arial, sans-serif;
+  margin: 0;
+  padding: 2px 0;
+  text-indent: -5px;
+}
+.paymentDatesWrapper .detailsTableHeader {
+  background: #dddddd;
+}
+.detailsTableHeader .detailsTableRow {
+  font-weight: bold;
+}
+.paymentDatesWrapper .detailsTable {
+  margin-left: 0;
+  margin-right: 0;
+}
+.paymentDatesWrapper .detailsTable .detailsTableRow {
+  padding: 5px 0 5px 15px;
+  border-bottom: 1px solid #dddddd;
+  border-left: 1px solid #dddddd;
+}
+.paymentDatesWrapper .detailsTable .detailsTableRow:last-child {
+  border-right: 1px solid #dddddd;
+}
+.subEffectiveDiv {
+  width: 100%;
+}
+
+.subEffectiveDiv div:first-child {
+  width: 75%;
+  text-align: left;
+}
+.subEffectiveDiv div:last-child {
+  width: 25%;
+  text-align: right;
+}
+/* ===================namita mam Transaction================= */
+
+.ChangPayModal + #menu-expiryMonth {
+  z-index: 3000 !important;
+}
+.ChangPayModal + #menu-expiryYear {
+  z-index: 3000 !important;
+}
+.ChangPayModal + #menu-AccountType {
+  z-index: 3000 !important;
+}
+.Change-Payment-Method {
+  /* width: 207px; */
+  height: 22px;
+  /* margin: 9px 70px 23px 25px; */
+  font-family: Roboto;
+  font-size: 18px;
+  font-weight: 500;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1;
+  letter-spacing: 0.15px;
+  text-align: left;
+  color: #5f2161;
+}
+.The-fellowship-incurs-additional-fees-related-to-p {
+  /* width: 785px;
+  height: 48px; */
+  margin: 14px 28px 17px 25px;
+  font-family: Roboto;
+  font-size: 14px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.14;
+  letter-spacing: normal;
+  text-align: justify;
+  /* margin-left: 2px; */
+  /* margin:15px; */
+  color: rgba(0, 0, 0, 0.87);
+}
+.Back_page {
+  width: 87px;
+  height: 24px;
+  margin: 3px 0 0 5px;
+  font-family: Tungsten;
+  font-size: 24px;
+  font-weight: 600;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1;
+  letter-spacing: 1.44px;
+  text-align: center;
+  color: #543379;
+  cursor: pointer;
+}
+.Back_page, .ButtonBG {
+  font-family: Tungsten;
+  font-weight: 600;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1;
+  letter-spacing: 1.44px;
+  text-align: center;
+}
+.ButtonBG {
+  width: 150px;
+  height: 40px;
+  margin: 0 20px 0 0;
+  padding: 0 0.2px 0 0;
+  border-radius: 30px;
+  border: solid 2px #41b5c2;
+  background-color: #41b5c2;
+  color: #ffffff;
+
+  font-family: Tungsten;
+  font-size: 18px;
+  font-weight: 600;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1;
+  letter-spacing: 1.44px;
+  text-align: center;
+  color: #ffffff;
+}
+
+.tabBtn .MuiTab-wrapper {
+  display: inline;
+}
+.raidoBtn {
+  margin: 0 10px 0 0 !important;
+}
+.blueActionBtn {
+  font-family: Tungsten !important;
+  border-radius: 20px;
+  border: 1px solid;
+
+  border: 1px solid;
+  background-color: #41b5c2;
+  font-size: 20px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: 0.75px;
+  color: #ffffff;
+  padding: 5px 30px;
+}
+.newblueActionBtn {
+  font-family: Tungsten !important;
+  border-radius: 20px;
+  border:  solid 2px #41b5c2 !important;
+  border: 1px solid;
+  background-color: #ffffff;
+  font-size: 16px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: 0.75px;
+  color: #41b5c2;
+  padding: 5px 22px;
+}
+.paymentBlock {
+  margin-top: -91px;
+  margin-left: 2px;
+  margin-bottom: -9px;
+  margin-right: -28px;
+  background: #fcfcfc;
+  padding: 21px 19px 20px 16px;
+}
+.web_status_button {
+  color: #ffffff;
+  /* width: 65px; */
+  height: 16px;
+  font-family: Roboto;
+  font-size: 12px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.33;
+  letter-spacing: 0.4px;
+  text-align: left;
+  padding: 5px 10px;
+  border-radius: 4px;
+}
+
+.Last_Account_Number {
+  margin-bottom: -82px;
+  width: 251px;
+  margin-top: 21px;
+  height: 54px;
+  /* margin: 6px 10px 34px 24px; */
+  padding: 8px 10px 5px 12px;
+  border-radius: 4px;
+  border: solid 1px #c6cacc;
+  background-color: #f1f1f1;
+  float: right;
+}
+.td_style1 {
+  width: 149px;
+  height: 32px;
+  margin: 0 2px 0 0;
+  font-family: Roboto;
+  font-size: 12px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.33;
+  letter-spacing: 0.4px;
+  text-align: left;
+  color: #787885;
+  padding-left: 7px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+.td_style {
+  width: 191px;
+  height: 32px;
+  margin: 0 2px 0 0;
+  font-family: Roboto;
+  font-size: 14px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.5;
+  letter-spacing: 0.44px;
+  text-align: left;
+  color: #19191d;
+}
+.Last_4_digit {
+  width: 294px;
+  border-radius: 4px;
+  border: solid 1px #c6cacc;
+  float: right;
+
+  /* margin-bottom: -60px; */
+  margin-bottom: 4px;
+  /* margin-top: 33px; */
+  margin-top: -49px;
+  background-color: #f1f1f1;
+}
+
+.SAVED {
+  background-color: #27ae60;
+}
+.APPROVED {
+  background-color: #27ae60;
+}
+.VOIDED {
+  background-color: #a9a9a9;
+}
+.DECLINED {
+  background-color: #eb5757;
+}
+.REFUND {
+  background-color: #eb5757;
+}
+
+.BATCHED {
+  background-color: #ffa500;
+}
+.PENDING {
+  background-color: #ffa500;
+}
+.ISSUE {
+  background-color: #ffa500;
+}
+.ISSUED {
+  background-color: #ffa500;
+}
+.Expired {
+  background-color: #a9a9a9;
+}
+.Active {
+  background-color: #27ae60;
+}
+.Pending {
+  background-color: #eb5757;
+}
+.data_not_found {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-size: 18px;
+  color: black;
+  height: 300px;
+}
+.noneeds_msg_display {
+  color: black;
+  font-weight: 500;
+}
+/* @media screen and (min-width: 765px) and (max-width: 899px) {
+  .Bottom-Blue{
+    bottom: 86px;
+  }
+} */
+@media (min-width: 950px) {
+  .container {
+    margin-top: 8%;
+  }
+}
+
+/* ==================ipad================== */
+@media only screen and (min-width: 900px) and (max-width: 1000px) {
+  .Bottom-Blue {
+    bottom: 96px;
+  }
+  .grid_row1 {
+    margin-bottom: 60px;
+    margin-left: 4%;
+    margin-right: 4%;
+  }
+  .grid_row2 {
+    margin-top: 2%;
+  }
+}
+@media screen and (min-width: 765px) and (max-width: 899px) {
+  .Bottom-Blue {
+    bottom: 86px;
+  }
+  .grid_row1 {
+    margin-bottom: 60px;
+    margin-left: 4%;
+    margin-right: 4%;
+  }
+  .grid_row2 {
+    margin-top: 2%;
+  }
+}
+@media screen and (min-width: 1024px) {
+  .Bottom-Blue {
+    bottom: 106px;
+  }
+  .grid_row1 {
+    margin-bottom: 60px;
+    margin-left: 4%;
+    margin-right: 4%;
+  }
+  .grid_row2 {
+    margin-top: 2%;
+  }
+}

@@ -1,0 +1,339 @@
+/*--- Accordion My Needs CSS  --------------------------- */
+
+.myneedcards {
+  /*position: fixed;*/
+  /*top: 0;*/
+  /*left: 0;*/
+  /*bottom: 0;*/
+  /*right: 0;*/
+  /*overflow: auto;*/
+  /*background-color: #ffffff;*/
+  /*display: flex;*/
+  /*flex-direction: column;*/
+  /*align-items: center;*/
+  /*justify-content: space-between;*/
+}
+.myneedscard_header {
+  width: 100%;
+  height: 56px;
+  box-shadow: 0 1px 10px 0 rgba(0, 0, 0, 0.2), 0 4px 5px 0 rgba(0, 0, 0, 0.12), 0 2px 4px 0 rgba(0, 0, 0, 0.14);
+  background-color: #543379;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0px 15px;
+}
+.myneedcard_headerdiv {
+  /* border:1px solid white; */
+  flex: 1;
+  margin: 0px 20px;
+
+  /* width: 220px; */
+  /* height: 24px; */
+  /* font-family: Roboto; */
+  font-size: 20px;
+  font-weight: 500;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.6;
+  letter-spacing: 0.5px;
+  color: #ffffff;
+}
+.itemWrap {
+  margin-bottom: 10px !important;
+}
+.Expense-Number {
+  /* width: 100px; */
+  height: 13px;
+  margin: 0 0 2.4px;
+  font-family: Roboto;
+  font-size: 11px;
+  font-weight: 500;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: 0.88px;
+  text-align: left;
+  color: #454d58;
+}
+.Expense-Number2 {
+  /* width: 100px; */
+  height: 13px;
+  margin: 0 0 2.4px;
+  font-family: Roboto;
+  font-size: 11px;
+  font-weight: 500;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: 0.88px;
+  text-align: left;
+  color: #454d58;
+  padding-left: 25px;
+}
+.Expense-Number22 {
+  /* width: 100px; */
+  height: 13px;
+  margin: 0 0 2.4px;
+  font-family: Roboto;
+  font-size: 14px;
+  font-weight: 500;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: 0.88px;
+  text-align: left;
+  color: #454d58;
+  padding-left: 60px;
+}
+.Expense-Number212 {
+  /* width: 100px; */
+  height: 13px;
+  margin: 0 0 2.4px;
+  font-family: Roboto;
+  font-size: 14px;
+  font-weight: 500;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: 0.88px;
+  text-align: left;
+  color: #454d58;
+  padding-left: 67px;
+}
+.Expense-Number21 {
+  /* width: 100px; */
+  height: 13px;
+  margin: 0 0 2.4px;
+  font-family: Roboto;
+  font-size: 11px;
+  font-weight: 500;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: 0.88px;
+  text-align: left;
+  color: #454d58;
+  padding-left: 90px;
+}
+.Expense-Number221 {
+  /* width: 100px; */
+  /*height: 13px;*/
+  /* margin: 0 0 2.4px; */
+  font-family: Roboto;
+  font-size: 11px;
+  font-weight: 500;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: 0.88px;
+  text-align: left;
+  color: #454d58;
+
+  overflow: hidden;
+  white-space: break-spaces;
+  /* text-overflow: ellipsis; */
+  word-break: break-all;
+  /* background-color: aqua; */
+}
+.Expense-Number11 {
+  /* width: 100px; */
+  height: 13px;
+  margin: 0 0 2.4px;
+  font-family: Roboto;
+  font-size: 14px;
+  font-weight: 500;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: 0.88px;
+  text-align: left;
+  color: #454d58;
+}
+.Expense-Number211 {
+  /* width: 110px; */
+  /*height: 13px;*/
+  /* margin: 0 0 2.4px; */
+  font-family: Roboto;
+  font-size: 14px;
+  font-weight: 500;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: 0.88px;
+  text-align: left;
+  color: #454d58;
+  overflow: hidden;
+  white-space: break-spaces;
+  /* text-overflow: ellipsis; */
+  word-break: break-all;
+  /* background-color: aqua; */
+}
+
+@media only screen and (max-width: 325px) {
+  .Expense-Number211 {
+    /* width: 95px; */
+    /*height: 13px;*/
+    /* margin: 0 0 2.4px; */
+    font-family: Roboto;
+    font-size: 14px;
+    font-weight: 500;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: 0.88px;
+    text-align: left;
+    color: #454d58;
+    overflow: hidden;
+    white-space: break-spaces;
+    /* text-overflow: ellipsis; */
+    word-break: break-all;
+    /* background-color: aqua; */
+  }
+}
+@media only screen and (max-width: 360px) {
+  .Expense-Number211 {
+    /* width: 95px; */
+    /*height: 13px;*/
+    /* margin: 0 0 2.4px; */
+    font-family: Roboto;
+    font-size: 14px;
+    font-weight: 500;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: 0.88px;
+    text-align: left;
+    color: #454d58;
+    overflow: hidden;
+    white-space: break-spaces;
+    /* text-overflow: ellipsis; */
+    word-break: break-all;
+    /* background-color: aqua; */
+  }
+}
+.Expense-Card {
+  width: 360px;
+  height: 124.3px;
+  margin-bottom: 127%;
+  /* margin: 0 0 122.4px; */
+  padding: 13.6px 7.7px 25.9px 0;
+  box-shadow: inset 0 -1px 0 0 grey;
+}
+.row-distance {
+  padding-left: 6.9%;
+  /* padding-top: 15.3%;
+  padding-right: 65.3%;
+  padding-bottom:74.3% ; */
+}
+.col-distance-two {
+  padding-left: 42.9%;
+}
+.status_button {
+  color: #ffffff;
+  /* width: 65px; */
+  /*height: 16px;*/
+  font-family: Roboto;
+  font-size: 12px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  /*line-height: 1.33;*/
+  letter-spacing: 0.4px;
+  text-align: center;
+  padding: 5px 10px;
+  border-radius: 4px;
+  text-transform: uppercase;
+  /*margin-left: 25px;*/
+}
+.InReview {
+  background: #eb5757;
+}
+.Final {
+  background: #27ae60;
+}
+.final_button {
+  background-color: #27ae60;
+  color: #ffffff;
+  /* width: 65px; */
+  height: 16px;
+  font-family: Roboto;
+  font-size: 12px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.33;
+  letter-spacing: 0.4px;
+  text-align: left;
+  padding: 5px 10px;
+  border-radius: 4px;
+}
+
+.view_number {
+  /*font-family: Roboto;*/
+  /*font-size: 13px;*/
+  /*font-weight: normal;*/
+  /*font-stretch: normal;*/
+  /*font-style: normal;*/
+  /*letter-spacing: normal;*/
+  /*text-align: left;*/
+  color: #8c1342;
+}
+.panelSummary {
+  flex-direction: row-reverse;
+}
+
+.panelSummary .MuiAccordionSummary-expandIcon {
+  transform: rotate(-90deg) !important;
+  margin-right: 5px;
+  padding: 0px !important;
+}
+.panelSummary .MuiAccordionSummary-expandIcon.Mui-expanded {
+  transform: rotate(0deg) !important;
+  padding: 0px !important;
+}
+.panelSummary + .MuiCollapse-entered {
+  overflow: auto;
+  background: #f6f6f6;
+}
+
+.APPROVED {
+  background-color: #27ae60;
+}
+.VOIDED {
+  background-color: #a9a9a9;
+}
+.DECLINED {
+  background-color: #eb5757;
+}
+
+.BATCHED {
+  background-color: #ffa500;
+}
+.PENDING {
+  background-color: #ffa500;
+}
+.ISSUE {
+  background-color: #ffa500;
+}
+
+.Audit {
+  background-color: #27ae60;
+}
+.Authorized {
+  background-color: #a9a9a9;
+}
+.Denied {
+  background-color: #eb5757;
+}
+
+.Reversed {
+  background-color: #ffa500;
+}
+.Pending {
+  background-color: #ffa500;
+}
+.ISSUE {
+  background-color: #ffa500;
+}

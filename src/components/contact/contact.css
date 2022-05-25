@@ -1,0 +1,49 @@
+@media (min-width: 1200px) {
+  .container {
+    width: 720px;
+    max-width: 100%;
+  }
+}
+@media (min-width: 992px) {
+  .container {
+    width: 720px;
+    max-width: 100%;
+  }
+}
+@media (min-width: 768px) {
+  .container {
+    width: 720px;
+    max-width: 100%;
+  }
+}
+
+.contact-section1 {
+  width: 720px;
+  height: 420px;
+  padding: 20px;
+  background-color: #fafafa;
+}
+.contact-details1 {
+  font-family: 'Palatino Linotype', 'Book Antiqua', Palatino, serif;
+  color: #333333;
+  font-size: 18px;
+  line-height: 32px;
+}
+.contact-highlight {
+  font-family: 'Palatino Linotype', 'Book Antiqua', Palatino, serif;
+  color: #8d1342;
+  font-size: 22px;
+  line-height: 32px;
+}
+.text {
+  width: 150px;
+  height: 24px;
+  font-family: Roboto;
+  font-size: 14px;
+  font-weight: 500;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.71;
+  letter-spacing: 0.15px;
+  color: #4f4f4f;
+}

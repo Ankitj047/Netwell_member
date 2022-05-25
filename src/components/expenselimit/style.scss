@@ -1,0 +1,50 @@
+/* @media (min-width: 1200px) {
+	.container {
+		width: 720px;
+		max-width: 100%;
+	}
+}
+@media (min-width: 992px) {
+	.container {
+		width: 720px;
+		max-width: 100%;
+	}
+} */
+
+@media (min-width: 768px) {
+  .container {
+    width: 720px;
+    max-width: 100%;
+  }
+
+  .expense-section {
+    background-color: #fafafa;
+    margin-top: 60px;
+    border-top-left-radius: 10%;
+    border-top-right-radius: 10%;
+  }
+}
+
+@media (max-width: 768px) {
+  .container {
+    max-width: 100%;
+  }
+  .expense-section {
+    background-color: #fafafa;
+    margin-top: 10px;
+    margin-top: 70px;
+    border-top-left-radius: 10%;
+    border-top-right-radius: 10%;
+  }
+}
+
+.expense-section {
+  .bottom-text {
+    margin: 0;
+    padding: 5px 10px 0 16px;
+    font-weight: bold;
+    font-size: 14px;
+    text-align: left;
+    margin-bottom: 10px;
+  }
+}

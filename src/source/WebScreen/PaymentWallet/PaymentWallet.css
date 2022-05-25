@@ -1,0 +1,938 @@
+.myneeds {
+  border: 1px solid red;
+  margin-top: 100px;
+  width: 80%;
+  /* display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center; */
+  /* float:center; */
+  margin-left: auto;
+  margin-right: auto;
+
+  background-color: white;
+}
+/* Payment card css */
+.cardDetailContainer {
+  padding: 27px 30px;
+  border-radius: 14px;
+  background-color: #ffffff;
+  position: relative;
+  background-image: url('./Images/Vector.png');
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+.UHS_Logo_payment_card {
+  /* padding: 20px; */
+  margin-bottom: 49px;
+}
+.Payment_card_number {
+  /* width: 450px;
+  height: 60px; */
+  font-family: Roboto;
+  font-size: 40px;
+  font-weight: 500;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: left;
+  color: #98335b;
+  margin-bottom: 40px;
+  /* padding:30px; */
+}
+.cvvDiv {
+  margin-bottom: 30px;
+}
+.CVV_ExpiryDate_Amount {
+  /* width: 40px;
+  height: 20px; */
+  font-family: Roboto;
+  font-size: 16px;
+  font-weight: 500;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: left;
+  color: #000000;
+  /* padding-left: 32px; */
+}
+.cvv_date-amount_value {
+  /* width: 40px;
+  height: 20px; */
+  font-family: Roboto;
+  font-size: 16px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: left;
+  color: #98335b;
+  /* padding-left: 10px; */
+}
+.card_member_name {
+  /* width: 250px;
+  height: 30px; */
+  font-family: Roboto;
+  font-size: 30px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: left;
+  color: #000000;
+  /* padding-left: 55px;
+  padding-top: 32px; */
+  width: max-content;
+}
+.payment_card_footer {
+  /* margin: 0 17px 5px 20px; */
+  margin-bottom: 5px;
+  font-family: Roboto;
+  font-size: 12px;
+  font-weight: 500;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: 0.96px;
+  text-align: left;
+  color: #bdbdbd;
+}
+
+.Line-2 {
+  width: 548px;
+  height: 1px;
+  margin: 29px 0 0;
+  transform: rotate(-180deg);
+  background-color: #4f4f4f;
+}
+
+.Download_text {
+  /* width: 70px;
+  height: 20px; */
+  margin: 0px 0px 0px 12px;
+  font-family: Tungsten;
+  font-size: 20px;
+  font-weight: 600;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1;
+  letter-spacing: 1.2px;
+  text-align: center;
+  color: #41b5c2;
+  cursor: pointer;
+}
+
+.share_download_icon {
+  width: 14px;
+  height: 18.5px;
+  /* background-color: #41b5c2; */
+  color: #41b5c2;
+  font-size: 26px !important;
+  cursor: pointer;
+}
+.mastercard_logo {
+  width: 65px;
+}
+
+.main_card_wrap {
+  max-width: 548px;
+  position: relative;
+}
+
+.paymentCardModal .modal-dialog {
+  max-width: 548px;
+}
+
+.paymentCardModal .modal-content {
+  background-color: transparent;
+}
+
+.cardBottomContainer {
+  background-color: #333333;
+  margin-top: -10px;
+}
+.cardBottomDetails {
+  padding: 25px 20px;
+  border-bottom: 1px solid #4f4f4f;
+}
+
+.cardBottomDetails h6 {
+  margin: 0px;
+  padding: 0px;
+  font-family: Roboto;
+  font-size: 12px;
+  font-weight: 500;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: 0.96px;
+  text-align: left;
+  color: #bdbdbd;
+}
+
+.cardBottomDetails h4 {
+  margin: 0px;
+  padding: 0px;
+  font-family: Roboto;
+  font-size: 13px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  letter-spacing: normal;
+  text-align: left;
+  color: #ffffff;
+  /* width:max-content; */
+}
+
+.actionBtnBottom {
+  padding: 12px 27px;
+}
+
+.viewCardBtn {
+  width: 204px;
+  height: 43px;
+  border-radius: 24px !important;
+  border: solid 2px #41b5c2 !important;
+  background-color: #ffffff !important;
+  font-family: Tungsten;
+  font-size: 14px !important;
+  font-weight: 600 !important;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1;
+  letter-spacing: 1.2px;
+  text-align: center !important;
+  color: #41b5c2 !important;
+  padding: 0px !important;
+  box-shadow: none !important;
+  float: right;
+}
+@media only screen and (max-width: 750px) {
+  .UHS_Logo_payment_card {
+    max-width: 125px;
+    margin-bottom: 26px;
+  }
+  .cardDetailContainer {
+    padding: 16px 16px;
+  }
+  .Payment_card_number {
+    font-family: Roboto;
+    font-size: 22px;
+    margin-bottom: 22px;
+  }
+  .card_member_name {
+    font-family: Roboto;
+    font-size: 18px;
+  }
+  .mastercard_logo {
+    width: 43px;
+  }
+  .cvvDiv {
+    margin-bottom: 11px;
+    flex-wrap: nowrap !important;
+  }
+  .cardBottomDetails {
+    padding: 14px 20px;
+    border-bottom: 1px solid #4f4f4f;
+    flex-wrap: nowrap !important;
+  }
+  .actionBtnBottom {
+    padding: 8px 27px;
+  }
+  .Download_text {
+    margin: 6px 0px 0px 12px;
+    font-family: Tungsten;
+    font-size: 14px;
+  }
+  .row wallet {
+    flex-wrap: nowrap !important;
+  }
+
+  .CVV_ExpiryDate_Amount {
+    font-family: Roboto;
+    font-size: 12px;
+    margin-bottom: 10px;
+  }
+  .cvv_date-amount_value {
+    font-family: Roboto;
+    font-size: 12px;
+  }
+  .cardBottomDetails h4 {
+    font-family: Roboto;
+    font-size: 10px;
+  }
+  .cardBottomDetails h6 {
+    font-family: Roboto;
+    font-size: 10px;
+  }
+}
+@media only screen and (max-width: 450px) {
+  .UHS_Logo_payment_card {
+    max-width: 125px;
+    margin-bottom: 26px;
+  }
+  .cardDetailContainer {
+    padding: 16px 16px;
+  }
+  .Payment_card_number {
+    font-family: Roboto;
+    font-size: 22px;
+    margin-bottom: 22px;
+  }
+  .card_member_name {
+    font-family: Roboto;
+    font-size: 18px;
+  }
+  .mastercard_logo {
+    width: 43px;
+  }
+  .cvvDiv {
+    margin-bottom: 11px;
+    flex-wrap: nowrap !important;
+  }
+  .cardBottomDetails {
+    padding: 14px 20px;
+    border-bottom: 1px solid #4f4f4f;
+    flex-wrap: nowrap !important;
+  }
+  .actionBtnBottom {
+    padding: 8px 27px;
+  }
+  .Download_text {
+    margin: 6px 0px 0px 12px;
+    font-family: Tungsten;
+    font-size: 14px;
+  }
+  .row wallet {
+    flex-wrap: nowrap !important;
+  }
+
+  .CVV_ExpiryDate_Amount {
+    font-family: Roboto;
+    font-size: 12px;
+    margin-bottom: 10px;
+  }
+  .cvv_date-amount_value {
+    font-family: Roboto;
+    font-size: 12px;
+  }
+  .cardBottomDetails h4 {
+    font-family: Roboto;
+    font-size: 10px;
+  }
+  .cardBottomDetails h6 {
+    font-family: Roboto;
+    font-size: 10px;
+  }
+}
+
+@media only screen and (max-width: 900px) {
+  .main_card_wrap {
+    max-width: 388px;
+    position: relative;
+  }
+  .UHS_Logo_payment_card {
+    max-width: 125px;
+    margin-bottom: 26px;
+  }
+  .cardDetailContainer {
+    padding: 16px 16px;
+  }
+  .Payment_card_number {
+    font-family: Roboto;
+    font-size: 22px;
+    margin-bottom: 22px;
+  }
+  .card_member_name {
+    font-family: Roboto;
+    font-size: 18px;
+  }
+  .mastercard_logo {
+    width: 43px;
+  }
+  .cvvDiv {
+    margin-bottom: 11px;
+    flex-wrap: nowrap !important;
+  }
+  .cardBottomDetails {
+    padding: 14px 20px;
+    border-bottom: 1px solid #4f4f4f;
+    flex-wrap: nowrap !important;
+  }
+  .actionBtnBottom {
+    padding: 8px 27px;
+  }
+  .Download_text {
+    margin: 6px 0px 0px 12px;
+    font-family: Tungsten;
+    font-size: 14px;
+  }
+  .row wallet {
+    flex-wrap: nowrap !important;
+  }
+
+  .CVV_ExpiryDate_Amount {
+    font-family: Roboto;
+    font-size: 12px;
+    margin-bottom: 10px;
+  }
+  .cvv_date-amount_value {
+    font-family: Roboto;
+    font-size: 12px;
+  }
+  .cardBottomDetails h4 {
+    font-family: Roboto;
+    font-size: 10px;
+  }
+  .cardBottomDetails h6 {
+    font-family: Roboto;
+    font-size: 10px;
+  }
+}
+
+/* @media only screen and (min-width: 350px) and (max-width: 600), only screen and (min-width: 350px) and (max-width: 650px), only screen and (min-width: 400px) and (max-width: 750), only screen and (min-resolution: 120dpi)  {
+  
+  .UHS_Logo_payment_card{
+    max-width: 125px;
+	    margin-bottom: 26px;
+  }
+  .cardDetailContainer {
+    padding: 16px 16px;
+  }
+  .Payment_card_number {
+    font-family: Roboto;
+    font-size: 22px;
+    margin-bottom: 22px;
+  }
+  .card_member_name {
+    font-family: Roboto;
+    font-size: 18px;
+  }
+  .mastercard_logo {
+    width: 43px;
+  }
+  .cvvDiv {
+    margin-bottom: 11px;
+  flex-wrap: nowrap !important;
+
+  }
+  .cardBottomDetails {
+    padding: 14px 20px;
+    border-bottom: 1px solid #4f4f4f;
+    flex-wrap: nowrap !important;
+  }
+  .actionBtnBottom {
+    padding: 8px 27px;
+  }
+  .Download_text {
+    margin: 6px 0px 0px 12px;
+    font-family: Tungsten;
+    font-size: 14px;
+  }
+.row wallet{
+  flex-wrap: nowrap !important;
+}
+
+.CVV_ExpiryDate_Amount {
+  font-family: Roboto;
+  font-size: 12px;
+  margin-bottom: 10px;
+}
+.cvv_date-amount_value {
+  font-family: Roboto;
+  font-size: 12px;
+}
+.cardBottomDetails h4 {
+ 
+  font-family: Roboto;
+  font-size: 10px;
+}
+.cardBottomDetails h6 {
+
+  font-family: Roboto;
+  font-size: 10px;
+}
+} */
+
+.progInfoContainer {
+  padding: 0 !important;
+  margin-top: 80px;
+  position: relative;
+}
+.commonWrap {
+  padding-top: 55px;
+}
+.commonWrap h2 {
+  margin: 0;
+}
+.progInfoSection {
+  padding: 20px;
+  background: #ffffff;
+}
+.progInfoTitle {
+  font-family: Roboto;
+  font-size: 42px;
+  font-weight: 300;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1;
+  letter-spacing: normal;
+  text-align: left;
+  color: #543379;
+  text-transform: uppercase;
+}
+.progInfoFooter {
+  background: #f7f7f7;
+  border-top: 1px solid #bdbdbd;
+  padding: 20px;
+  /* padding-bottom: 82px !important; */
+}
+.footerChatNeedsHelp {
+  background: #f7f7f7;
+  border-top: 1px solid #bdbdbd;
+  padding: 10px;
+  /* padding-bottom: 82px !important; */
+}
+.elevation {
+  width: 70px;
+  height: 70px;
+  border-radius: 35px;
+  box-shadow: 0 2.5px 5px 0 rgba(0, 0, 0, 0.2), 0 1.3px 12.5px 0 rgba(0, 0, 0, 0.12), 0 5px 6.3px 0 rgba(0, 0, 0, 0.14);
+  background-color: #41b5c2;
+}
+.dpFlex {
+  display: flex;
+  flex-direction: row-reverse;
+}
+.footerText {
+  padding: 9px 15px 0 0;
+}
+.footerText p {
+  margin: 0;
+  font-family: Roboto;
+  font-size: 14px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.14;
+  letter-spacing: normal;
+  text-align: right;
+  color: #333333;
+  padding: 2px 0;
+}
+.footerText p:first-child {
+  font-weight: bold;
+}
+.tablebackgroundouter {
+  background-color: white;
+  /* border: 1px solid red; */
+  /* height: 300px; */
+  padding: 10px 30px;
+  /* overflow: auto; */
+}
+.tablebackgroundouterPaymentWallet .MuiCollapse-wrapperInner td,
+.tablebackgroundouter .MuiCollapse-wrapperInner th {
+  border-bottom: none !important;
+  padding: 5px 16px 0px 16px !important;
+}
+.tablebackgroundouterPaymentWallet .viewCardBtn {
+  position: relative;
+  margin-top: -20px;
+}
+.MuiCollapse-wrapperInner .rowTableExpand td {
+  padding-top: 25px !important;
+}
+.preferedDateStyle {
+  color: rgba(0, 0, 0, 0.54);
+  margin: 0;
+  font-size: 0.75rem;
+  margin-top: 3px;
+  text-align: left;
+  font-family: 'Roboto', 'Helvetica', 'Arial', sans-serif;
+  font-weight: 400;
+  line-height: 1.66;
+  letter-spacing: 0.03333em;
+}
+.tablefixheight {
+  background-color: white;
+  /* border: 1px solid red; */
+  height: 280px;
+  /* padding: 10px 30px; */
+  overflow: auto;
+}
+
+.headercellColor {
+  /* color: #8c827a !important; */
+  color: red;
+}
+.sortheadercellColor {
+  /* color: #8c827a !important; */
+  background-color: #f9f9fa;
+}
+.rowcellcolor {
+  font-size: 16px;
+  /*color: #000000 !important;*/
+  font-family: Roboto;
+  font-weight: 400;
+}
+.sortrowcellcolor {
+  font-size: 16px;
+  /*color: #000000 !important;*/
+  font-family: Roboto;
+  font-weight: 400;
+  background-color: #f9f9fa;
+}
+
+.inreview_button {
+  background-color: #eb5757;
+  color: #ffffff;
+  /* width: 65px; */
+  height: 16px;
+  font-family: Roboto;
+  font-size: 12px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.33;
+  letter-spacing: 0.4px;
+  text-align: left;
+  padding: 5px 10px;
+  border-radius: 4px;
+}
+
+.final_button {
+  background-color: #27ae60;
+  color: #ffffff;
+  /* width: 65px; */
+  height: 16px;
+  font-family: Roboto;
+  font-size: 12px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.33;
+  letter-spacing: 0.4px;
+  text-align: left;
+  padding: 5px 10px;
+  border-radius: 4px;
+}
+
+.inner_viewbutn {
+  color: red;
+}
+
+.Footer-error-msg {
+  color: red;
+  font-size: 16px;
+  font-weight: 500;
+
+  /* float: right; */
+  margin-right: 34%;
+}
+
+/* ===================namita mam Transaction================= */
+
+.ChangPayModal + #menu-expiryMonth {
+  z-index: 3000 !important;
+}
+.ChangPayModal + #menu-expiryYear {
+  z-index: 3000 !important;
+}
+.ChangPayModal + #menu-AccountType {
+  z-index: 3000 !important;
+}
+.paymentWalletModal + div {
+  z-index: 3000 !important;
+}
+
+.Change-Payment-Method {
+  /* width: 207px; */
+  height: 22px;
+  /* margin: 9px 70px 23px 25px; */
+  font-family: Roboto;
+  font-size: 18px;
+  font-weight: 500;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1;
+  letter-spacing: 0.15px;
+  text-align: left;
+  color: #5f2161;
+}
+.The-fellowship-incurs-additional-fees-related-to-p {
+  /* width: 785px;
+  height: 48px; */
+  margin: 14px 0px;
+  font-family: Roboto;
+  font-size: 14px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.14;
+  letter-spacing: normal;
+  text-align: justify;
+  /* margin-left: 2px; */
+  /* margin:15px; */
+  color: rgba(0, 0, 0, 0.87);
+}
+.Back_page {
+  width: 87px;
+  height: 24px;
+  margin: 3px 0 0 5px;
+  font-family: Tungsten;
+  font-size: 24px;
+  font-weight: 600;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1;
+  letter-spacing: 1.44px;
+  text-align: center;
+  color: #543379;
+  cursor: pointer;
+}
+.ButtonBG {
+  width: 150px;
+  height: 40px;
+  margin: 0 20px 0 0;
+  padding: 0 0.2px 0 0;
+  border-radius: 30px;
+  border: solid 2px #41b5c2;
+  background-color: #41b5c2;
+  color: #ffffff;
+
+  font-family: Tungsten;
+  font-size: 18px;
+  font-weight: 600;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1;
+  letter-spacing: 1.44px;
+  text-align: center;
+  color: #ffffff;
+}
+
+.tabBtn .MuiTab-wrapper {
+  display: inline;
+}
+.raidoBtn {
+  margin: 0 10px 0 0 !important;
+}
+.blueActionBtn {
+  font-family: Tungsten !important;
+  border-radius: 20px;
+  border: 1px solid;
+
+  border: 1px solid;
+  background-color: #41b5c2;
+  font-size: 20px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: 0.75px;
+  color: #ffffff;
+  padding: 5px 30px;
+}
+.blueActionBtnDisable {
+  font-family: Tungsten !important;
+  border-radius: 20px;
+  border: 1px solid;
+
+  border: 1px solid;
+  background-color: #a6b8ba;
+  font-size: 20px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: 0.75px;
+  color: #ffffff;
+  padding: 5px 30px;
+}
+
+.web_status_button {
+  color: #ffffff;
+  /* width: 65px; */
+  height: 16px;
+  font-family: Roboto;
+  font-size: 12px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.33;
+  letter-spacing: 0.4px;
+  text-align: left;
+  padding: 5px 10px;
+  border-radius: 4px;
+}
+
+.Last_Account_Number {
+  margin-bottom: -82px;
+  width: 251px;
+  margin-top: 21px;
+  height: 54px;
+  /* margin: 6px 10px 34px 24px; */
+  padding: 8px 10px 5px 12px;
+  border-radius: 4px;
+  border: solid 1px #c6cacc;
+  background-color: #f1f1f1;
+  float: right;
+}
+.td_style1 {
+  width: 149px;
+  height: 32px;
+  margin: 0 2px 0 0;
+  font-family: Roboto;
+  font-size: 12px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.33;
+  letter-spacing: 0.4px;
+  text-align: left;
+  color: #787885;
+  padding-left: 7px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+.td_style {
+  width: 191px;
+  height: 32px;
+  margin: 0 2px 0 0;
+  font-family: Roboto;
+  font-size: 14px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.5;
+  letter-spacing: 0.44px;
+  text-align: left;
+  color: #19191d;
+}
+.Last_4_digit {
+  width: 294px;
+  border-radius: 4px;
+  border: solid 1px #c6cacc;
+  float: right;
+
+  /* margin-bottom: -60px; */
+  margin-bottom: 4px;
+  /* margin-top: 33px; */
+  margin-top: -49px;
+  background-color: #f1f1f1;
+}
+
+.SAVED {
+  background-color: #27ae60;
+}
+.APPROVED {
+  background-color: #27ae60;
+}
+.VOIDED {
+  background-color: #a9a9a9;
+}
+.DECLINED {
+  background-color: #eb5757;
+}
+.REFUND {
+  background-color: #eb5757;
+}
+
+.BATCHED {
+  background-color: #ffa500;
+}
+.PENDING {
+  background-color: #ffa500;
+}
+.ISSUE {
+  background-color: #ffa500;
+}
+
+.data_not_found {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-size: 18px;
+  color: black;
+  height: 300px;
+}
+.noneeds_msg_display {
+  color: black;
+  font-weight: 500;
+}
+/* @media screen and (min-width: 765px) and (max-width: 899px) {
+  .Bottom-Blue{
+    bottom: 86px;
+  }
+} */
+@media (min-width: 950px) {
+  .container {
+    margin-top: 8%;
+  }
+}
+
+/* ==================ipad================== */
+@media only screen and (min-width: 900px) and (max-width: 1000px) {
+  .Bottom-Blue {
+    bottom: 96px;
+  }
+  .grid_row1 {
+    margin-bottom: 60px;
+    margin-left: 4%;
+    margin-right: 4%;
+  }
+  .grid_row2 {
+    margin-top: 2%;
+  }
+}
+@media screen and (min-width: 765px) and (max-width: 899px) {
+  .Bottom-Blue {
+    bottom: 86px;
+  }
+  .grid_row1 {
+    margin-bottom: 60px;
+    margin-left: 4%;
+    margin-right: 4%;
+  }
+  .grid_row2 {
+    margin-top: 2%;
+  }
+}
+@media screen and (min-width: 1024px) {
+  .Bottom-Blue {
+    bottom: 106px;
+  }
+  .grid_row1 {
+    margin-bottom: 60px;
+    margin-left: 4%;
+    margin-right: 4%;
+  }
+  .grid_row2 {
+    margin-top: 2%;
+  }
+}
+@media (min-width: 768px) {
+  .Rectangle11 {
+    width: 547.7px !important;
+    height: 320px !important;
+    border-radius: 4px;
+    background-color: #ffffff;
+    border-radius: 13.3px;
+    background-image: url('./Images/Vector.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 100%;
+  }
+  .bg_grey {
+    width: 548px;
+    height: 156px;
+    margin: 462px 0 0 276px;
+    padding: 36px 0 0;
+    background-color: #333333;
+  }
+}

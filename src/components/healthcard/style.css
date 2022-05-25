@@ -1,0 +1,45 @@
+.id-card-front .hidden.printable {
+  display: none;
+}
+
+.member-list-container {
+  max-height: 230px;
+  overflow-y: auto;
+}
+
+@media print {
+  .id-card-front .hidden.printable {
+    display: block !important;
+    -webkit-print-color-adjust: exact;
+  }
+  .container {
+    padding-left: 0 !important;
+  }
+  .Rectangle {
+    height: auto !important;
+    border: 1px solid gray;
+    margin-bottom: 40px !important;
+  }
+
+  #root {
+    display: none;
+  }
+  .close-flip-div {
+    visibility: hidden !important;
+  }
+
+  .footer-section {
+    background-color: #420046 !important;
+    -webkit-print-color-adjust: exact;
+  }
+  .contact-section {
+    background-color: #420046 !important;
+    -webkit-print-color-adjust: exact;
+  }
+
+  .id-card-back-main {
+    height: 200px;
+    width: 250px;
+    display: none !important;
+  }
+}

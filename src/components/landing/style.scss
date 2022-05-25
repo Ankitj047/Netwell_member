@@ -1,0 +1,98 @@
+.root {
+  flex-grow: 1;
+  /* Magic here */
+  float: center;
+  background-color: #eae8db;
+}
+.paper {
+  padding: 'theme.spacing(1)';
+  text-align: center;
+  color: 'theme.palette.text.secondary';
+}
+.caption {
+  font-family: Candara;
+  margin: 0;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.6;
+  letter-spacing: 0.15;
+  color: #4f4f4f;
+  text-align: center;
+  font-size: 20px;
+}
+
+.card {
+  width: 100%;
+  border-radius: 4;
+  box-shadow: 0 2px 4px 0 #d2d6ed, 0 1px 2px 0 #b4bbe2;
+  background-color: #ffffff;
+  text-align: center;
+}
+.media {
+  height: 140;
+}
+
+.l {
+  text-decoration: none;
+}
+.welcome {
+  font-family: Candara;
+  font-size: 24px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.67;
+  letter-spacing: 0.15px;
+  color: #f6356a;
+  padding-left: 15px;
+  padding-right: 16px;
+  padding-top: 5px;
+}
+.welcome-text {
+  font-family: PalatinoLinotype-Roman;
+  font-size: 15px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.07;
+  letter-spacing: normal;
+  color: rgba(0, 0, 0, 0.87);
+  padding-left: 15px;
+  margin-bottom: 10px;
+  padding-right: 16px;
+}
+
+.card-grid {
+  padding: 5px 15px !important;
+}
+
+.imp-docs {
+  .doc-list {
+    height: 110px;
+    overflow-y: auto;
+    p {
+      margin: 0;
+      text-align: left;
+      padding: 5px;
+      padding-left: 10px;
+    }
+    p:hover {
+      background: #420045;
+      cursor: pointer;
+      color: white;
+    }
+  }
+}
+
+.main-container {
+  margin: 0 !important;
+  margin-top: 10px !important;
+  margin-bottom: 15px !important;
+}
+.bottom-text {
+  text-align: center;
+  span {
+    font-weight: bold;
+  }
+}

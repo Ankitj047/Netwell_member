@@ -1,0 +1,288 @@
+.chatbodyMobile {
+  flex-grow: 1;
+  padding: 20;
+  overflow-y: scroll;
+}
+.chatbodyMobile .bubble {
+  display: inline-block;
+  padding: 10px;
+  margin-bottom: 5px;
+  border-radius: 9px;
+  max-width: 330px;
+}
+.chatbodyMobile .intentbubble {
+  display: inline-block;
+  padding: 10px;
+  margin-bottom: 5px;
+  border-radius: 9px;
+  min-width: fit-content;
+}
+.header-containers {
+  width: 100%;
+  height: 60px;
+  background-color: #533278;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.header-containers .caption {
+  width: 54.33333%;
+  font-family: Tungsten;
+  font-size: 14px;
+  font-weight: 600;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1;
+  letter-spacing: 1.44px;
+  text-align: center;
+  color: #fff;
+  text-transform: uppercase;
+}
+.header-containers .logo {
+  width: 20%;
+  margin-left: 8px;
+}
+.chatbodyMobile .intentbubble p {
+  margin-bottom: 0rem !important;
+  font-size: 18px;
+  text-align: left;
+  line-height: 1.4;
+  word-break: break-word;
+  font-family: 'Roboto';
+  flex-grow: 0;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+}
+.chatbodyMobile .bubble p {
+  margin-bottom: 0rem !important;
+  font-size: 18px;
+  text-align: left;
+  line-height: 1.4;
+  word-break: break-word;
+  font-family: 'Roboto';
+  flex-grow: 0;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+}
+.chatbodyMobile .incoming {
+  text-align: left;
+}
+.chatbodyMobile .incoming .bubble {
+  color: #333333;
+  background-color: rgba(223, 223, 223, 0.5) !important;
+}
+.chatbodyMobile .outgoing {
+  text-align: right;
+}
+.chatbodyMobile .outgoing .bubble {
+  color: #fdfdff;
+  background-color: #4f4f4f;
+}
+.intent {
+  background-color: '#54337A' !important;
+  color: #fff;
+  margin-right: 5px;
+  cursor: 'pointer';
+}
+.spinner {
+  width: 70px;
+  text-align: left;
+}
+
+.spinner > div {
+  width: 10px;
+  height: 10px;
+  background-color: #333;
+
+  border-radius: 100%;
+  display: inline-block;
+  -webkit-animation: sk-bouncedelay 1.4s infinite ease-in-out both;
+  animation: sk-bouncedelay 1.4s infinite ease-in-out both;
+}
+
+.spinner .bounce1 {
+  -webkit-animation-delay: -0.32s;
+  animation-delay: -0.32s;
+}
+
+.spinner .bounce2 {
+  -webkit-animation-delay: -0.16s;
+  animation-delay: -0.16s;
+}
+
+@-webkit-keyframes sk-bouncedelay {
+  0%,
+  80%,
+  100% {
+    -webkit-transform: scale(0);
+  }
+  40% {
+    -webkit-transform: scale(1);
+  }
+}
+
+@keyframes sk-bouncedelay {
+  0%,
+  80%,
+  100% {
+    -webkit-transform: scale(0);
+    transform: scale(0);
+  }
+  40% {
+    -webkit-transform: scale(1);
+    transform: scale(1);
+  }
+}
+
+/* WebChatDesktop */
+.web_Chat_container {
+  width: 1440px;
+  padding: 38px 118px 258px 40px;
+  object-fit: contain;
+}
+.web_top_username {
+  text-transform: uppercase;
+  width: 35vw;
+  height: 70px;
+  font-family: 'Anton', sans-serif;
+  font-size: 4vw;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.1;
+  letter-spacing: normal;
+  color: #000000;
+}
+.search-icon-mobile {
+  position: relative;
+  right: -14px;
+  top: 5px;
+  z-index: 8; /*this will keep the icon appearing all time, even when on input::focus*/
+}
+.form-control {
+  padding-left: 1.75rem;
+}
+.chatHeader {
+  width: 100vw;
+  height: 65px;
+  flex-grow: 0;
+  margin: 0 0 0px;
+  padding: 4.8px 17px 3.3px 9px;
+  background-color: #533278;
+  flex-direction: row;
+}
+.chatHeader p {
+  width: 90vw;
+  height: 17.9px;
+  position: relative;
+  flex-grow: 0;
+  margin: -28px 35px 15.8px 38px;
+  font-family: Tungsten;
+  font-size: 16px;
+  font-weight: 600;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1;
+  letter-spacing: 1.44px;
+  text-align: center;
+  color: #ffffff;
+}
+.Bottom-Controls-BG {
+  width: 100vw;
+  position: fixed !important;
+  overflow: hidden !important;
+  height: 85px;
+  z-index: 10000000000 !important;
+  bottom: -10px !important;
+  background-color: #e4e4e4;
+}
+.background-full-Chat {
+  position: fixed !important;
+  top: 0 !important;
+  left: 0 !important;
+  bottom: 0 !important;
+  right: 0 !important;
+  background-color: #ffffff !important;
+}
+.inputBoxChat {
+  bottom: 0 !important;
+  padding: 20px 16px !important;
+  margin: 14px 0px 14px 16px;
+}
+.sendButton {
+  bottom: 1px !important;
+  position: relative;
+  margin: 22px 0;
+}
+.Bomba {
+  width: 70.1px;
+  height: 41.2px;
+  flex-grow: 0;
+  margin: 6.7px 5.9px 0 23px;
+  background-color: #5f2161;
+}
+
+.scrolling-wrapper {
+  display: flex;
+  overflow-x: auto;
+  overflow-y: hidden;
+  white-space: nowrap;
+}
+
+.scrolling-wrapper .intentbubble {
+  /* width: 250px; */
+  /* display: inline-block; */
+}
+
+/* ===== Scrollbar CSS ===== */
+/* Firefox */
+* {
+  scrollbar-width: 4px;
+  scrollbar-color: #474747 #ffffff;
+}
+
+/* Chrome, Edge, and Safari */
+*::-webkit-scrollbar {
+  width: 4px;
+}
+
+*::-webkit-scrollbar-track {
+  background: #ffffff;
+}
+
+*::-webkit-scrollbar-thumb {
+  background-color: #474747;
+  border-radius: 10px;
+  border: 3px solid #ffffff;
+}
+
+.contactinfo_label {
+  /* width: 304px; */
+  /* height: 18px; */
+  /* font-family: 'Roboto'; */
+  font-size: 15px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.2;
+  letter-spacing: 0.15px;
+  color: #4f4f4f;
+}
+.contactinfo_Value {
+  /* width: 164px; */
+  /* height: 24px; */
+  /* font-family: Roboto; */
+  font-size: 20px;
+  font-weight: 500;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.2;
+  letter-spacing: 0.15px;
+  color: #33ab8f;
+}

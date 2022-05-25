@@ -1,0 +1,718 @@
+.progInfoContainer {
+  padding: 0 !important;
+  margin-top: 101px !important;
+  position: relative;
+}
+.commonWrap {
+  /* padding: 55px 0; */
+  margin-top: -27px;
+}
+.commonWrap .progInfoTitle {
+  margin: 0 0 40px 0;
+}
+.progInfoSection {
+  padding: 20px;
+  background: #ffffff;
+  border-radius: 4px 4px 0 0;
+  /* max-height: 400px;
+  overflow:auto; */
+}
+.leftData {
+  max-height: 400px;
+  overflow-y: auto;
+  overflow-x: hidden;
+}
+.leftDataAddons {
+  max-height: 400px;
+  overflow-y: none;
+  overflow-x: none;
+  margin-left: -163px;
+}
+.headClass{
+  
+  font-family: Roboto;
+  font-size: 16px;
+  font-weight: 500;
+  
+  text-align: left;
+  color: #000;
+
+
+}
+.tdClass{
+  
+  font-family: Roboto;
+  font-size: 14px;
+  font-weight: normal;
+  
+  letter-spacing: 1.12px;
+  text-align: left;
+  color: #454d58;
+
+}
+.table td, .table th{
+  /* padding: 0px; */
+  border-top: none;
+}
+.table thead th{
+  border-bottom: none;
+}
+
+table.table th, table.table td{
+  padding-top:0px;
+}
+.enrolledTableClass{
+  /* margin-left: 6%; */
+  /* margin-top: 4%; */
+  padding-top: 3%;
+  margin-right: 6%;
+  /* background-color: #fcfcfc; */
+}
+.headTableCellClass{
+  font-family: Roboto;
+  font-size: 14px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: 1.12px;
+  text-align: left;
+  color: #454d58;
+}
+.programInfoButton{
+  width:190px;
+  border-radius: 30px;
+  border: solid 2px #41b5c2;
+  font-family: Tungsten;
+  font-size: 20px;
+  font-weight: 600;
+  text-align: center;
+  color: #41b5c2;
+  background-color: #ffffff;
+  padding: 7px 7px 7px 4px;
+  /* margin-bottom: 30px; */
+}
+
+.programInfoButtonDisable{
+  width:190px;
+  border-radius: 30px;
+  /* border: solid 2px #41b5c2; */
+  font-family: Tungsten;
+  font-size: 20px;
+  font-weight: 600;
+  text-align: center;
+  /* color: #41b5c2; */
+  background-color: #ffffff;
+  padding: 7px 7px 7px 4px;
+  /* margin-bottom: 30px; */
+}
+.programInfoButtonUpdateHousehold{
+  width:190px;
+  border-radius: 30px;
+  border: solid 2px #41b5c2;
+  font-family: Tungsten;
+  font-size: 20px;
+  font-weight: 600;
+  text-align: center;
+  color: #41b5c2;
+  background-color: #ffffff;
+  padding: 7px 7px 7px 4px;
+  margin-bottom: 30px;
+}
+/* 
+.MuiTableCell-root{
+  border-bottom: none;
+} */
+
+.progInfoSection_mob {
+  padding: 20px;
+  background: #ffffff;
+  border-radius: 4px 4px 0 0;
+  max-height: 400px;
+  overflow: auto;
+}
+.myNotificationSection_mob {
+  padding: 20px;
+  background: #ffffff;
+  border-radius: 4px 4px 0 0;
+  /* max-height:400px;
+  overflow:auto; */
+}
+.progInfoTitle {
+  font-family: Roboto;
+  font-size: 42px;
+  font-weight: 300;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1;
+  letter-spacing: normal;
+  text-align: left;
+  color: #543379;
+  text-transform: uppercase;
+}
+
+.logoFont {
+  /*font-family: Tungsten;*/
+  font-family: 'Anton', sans-serif;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.1;
+  letter-spacing: normal;
+  text-align: left;
+  color: #000000;
+  margin: 0;
+}
+.UHS6 {
+  font-size: 60px;
+}
+.ACSM {
+  font-size: 45px;
+}
+.RxSimpleShare {
+  font-size: 36px;
+}
+
+.Program_status_button {
+  color: #ffffff;
+  /* width: 65px; */
+  height: 16px;
+  font-family: Roboto;
+  font-size: 12px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.33;
+  letter-spacing: 0.4px;
+  text-align: left;
+  padding: 5px 10px;
+  border-radius: 4px;
+}
+.Active {
+  background-color: #27ae60;
+}
+.Pending {
+  background-color: #eb5757;
+}
+.borderRight {
+  border-right: 1px solid #dfdfdf;
+}
+.infoHeading {
+  font-family: Roboto;
+  font-size: 16px;
+  font-weight: 500;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: left;
+  color: #000000;
+  margin: 0 0 20px 0;
+}
+.label {
+  font-family: Roboto;
+  font-size: 14px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: 1.12px;
+  text-align: left;
+  color: #454d58;
+  margin: 0 0 2px 0;
+}
+
+.AddOnslabel {
+  font-family: Roboto;
+  font-size: 14px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  /* letter-spacing: 1.12px; */
+  text-align: left;
+  color: #454d58;
+  margin: 20px 0 2px 0;
+}
+.number {
+  font-family: Roboto;
+  font-size: 16px;
+  font-weight: 700;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: left;
+  color: #000000;
+  margin: 0 0 2px 0;
+}
+
+.AddOnsValue {
+  font-family: Roboto;
+  font-size: 16px;
+  font-weight: 500;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: left;
+  color: #000000;
+  margin: 0 0 2px 0;
+}
+
+.progessBarWrapper {
+  padding-right: 20px;
+  margin-bottom: 50px;
+}
+.progessBarWrapperWidget {
+  padding-right: 20px;
+  margin-bottom: 5px;
+}
+.barTitle {
+  font-family: Roboto;
+  font-size: 15px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: 1.2px;
+  text-align: left;
+  color: #454d58;
+  margin-bottom: 15px;
+}
+.amtWrapper {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 10px;
+}
+.metAmt {
+  font-family: Roboto;
+  font-size: 16px;
+  font-weight: 500;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: center;
+  color: #eb5757;
+}
+.metAmtYellow {
+  color: #fec465;
+}
+.remainingAmt {
+  font-family: Roboto;
+  font-size: 14px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: center;
+  color: #000000;
+}
+.progressContainer {
+  height: 16px;
+  width: 100%;
+  background: rgba(235, 87, 87, 0.5);
+  border-radius: 50px;
+}
+.progressIndicator {
+  background-color: #eb5757;
+  /*width: 60%;*/
+  height: 100%;
+  border-radius: 50px;
+  text-align: right;
+}
+
+.progressContainerYellow {
+  height: 16px;
+  width: 100%;
+  background: rgba(254, 196, 101, 0.5);
+  border-radius: 50px;
+}
+.progressIndicatorYellow {
+  background-color: #fec465;
+  /*width: 60%;*/
+  height: 100%;
+  border-radius: 50px;
+  text-align: right;
+}
+
+/* Footer Section */
+.progInfoFooter {
+  background: #f7f7f7;
+  border-top: 1px solid #bdbdbd;
+  padding: 20px;
+  box-shadow: 0 2px 4px 0 #e5e5e5, 0 1px 2px 0 #bdbdbd;
+  border-radius: 0 0 4px 4px;
+}
+.elevation {
+  width: 70px;
+  height: 70px;
+  border-radius: 35px;
+  box-shadow: 0 2.5px 5px 0 rgba(0, 0, 0, 0.2), 0 1.3px 12.5px 0 rgba(0, 0, 0, 0.12), 0 5px 6.3px 0 rgba(0, 0, 0, 0.14);
+  background-color: #41b5c2;
+}
+.dpFlex {
+  display: flex;
+  flex-direction: row-reverse;
+}
+.footerText {
+  padding: 9px 15px 0 0;
+}
+.footerText p {
+  margin: 0;
+  font-family: Roboto;
+  font-size: 14px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.14;
+  letter-spacing: normal;
+  text-align: right;
+  color: #333333;
+  padding: 2px 0;
+}
+.footerText p:first-child {
+  font-weight: bold;
+}
+.mobileViewHeader {
+  display: none;
+  position: fixed;
+  width: 100%;
+  z-index: 2;
+}
+.mobile_header {
+  width: 100%;
+  height: 56px;
+  box-shadow: 0 1px 10px 0 rgba(0, 0, 0, 0.2), 0 4px 5px 0 rgba(0, 0, 0, 0.12), 0 2px 4px 0 rgba(0, 0, 0, 0.14);
+  background-color: #543379;
+  padding: 0 15px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.mobile_header_title {
+  flex: 1 1;
+  margin: 0 20px;
+  font-size: 20px;
+  font-weight: 500;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.6;
+  letter-spacing: 0.5px;
+  color: #fff;
+}
+.mobileFooter {
+  display: none;
+}
+.data_not_found {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-size: 18px;
+  color: black;
+  height: 277px;
+}
+.data_not_found1 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-size: 18px;
+  color: black;
+  height: 600px;
+}
+.headerSumary{
+  margin: '0px 0px 30px 0px';
+}
+.EligibleServiceTabContent{
+  margin: 35px 0px 30px 40px;
+  min-height: 110%;
+}
+.commanTap{
+  margin-top: '35px' !important;
+  margin-left: '40px' !important;
+}
+.sumary{ 
+  margin-top: 35px !important;
+  margin-left: 40px !important;  
+  height:68vh;
+}
+.addonsTab{
+  margin: 35px 0px 40px 40px;
+}
+@media only screen and (max-width: 767px) {
+  .paddingRXSimpleShare{
+    padding-bottom: 23px !important;
+  }
+  .sumary{
+    margin-top: 35px !important;
+    margin-left: 9px !important;  
+    height:68vh;
+  }
+  .addonsTab{
+    margin: 35px 0px 40px 10px;
+  }
+  .enrolledTable{
+    min-height: 60vh
+  }
+  .EligibleServiceTabContent{
+    margin: 35px 0px 30px 10px;
+    min-height: 50vh;
+  }
+  .headerSumary{
+    margin-top: -15vh;
+  }
+  .commonWrap {
+    padding: 0 0 55px 0;
+  }
+  .Back_page{
+    display: none !important;
+  }
+  
+  .commonWrap .progInfoSection {
+      padding-top: 44px;
+  }
+  .webHeader {
+    display: none;
+  }
+  .mobileViewHeader {
+    display: block !important;
+  }
+  .progInfoContainer {
+    margin-top: 0px !important;
+  }
+  .progInfoTitle {
+    display: none;
+  }
+  .webFooter {
+    display: none;
+  }
+  .mobileFooter {
+    display: block;
+  }
+  .progInfoSection_mob {
+    padding: 1px;
+    background: #ffffff;
+    border-radius: 4px 4px 0 0;
+    max-height: 100%;
+    margin-top: 15px;
+    /* max-height:400px;
+    overflow:auto; */
+  }
+  .data_not_found {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 18px;
+    color: black;
+    height: 500px;
+  }
+  .leftDataAddons {
+    max-height: none;
+    overflow-y: none;
+    overflow-x: none;
+    margin-left: 0px;
+  }
+  
+.AddOnslabel {
+  font-family: Roboto;
+  font-size: 13px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  /* letter-spacing: 1.12px; */
+  text-align: left;
+  color: #454d58;
+  margin: 20px 0 2px 0;
+}
+.AddOnsValue {
+  font-family: Roboto;
+  font-size: 14px;
+  font-weight: 500;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: left;
+  color: #000000;
+  margin: 0 0 2px 0;
+}
+.programInfoButtonUpdateHousehold{
+  width:190px;
+  border-radius: 30px;
+  border: solid 2px #41b5c2;
+  font-family: Tungsten;
+  font-size: 20px;
+  font-weight: 600;
+  text-align: center;
+  color: #41b5c2;
+  background-color: #ffffff;
+  padding: 7px 7px 7px 4px;
+  margin-bottom: 30px;
+  margin-top: 15px;
+}
+
+}
+@media only screen and (max-width: 325px) {
+  .Back_page {
+    display: none;
+  }
+  .commonWrap {
+    padding: 55px 0;
+    /* margin-top: -27px; */
+  }
+  .progInfoSection_mob {
+    padding: 1px;
+    background: #ffffff;
+    border-radius: 4px 4px 0 0;
+    max-height: 100%;
+    margin-top: 15px;
+    /* max-height:400px;
+    overflow:auto; */
+  }
+  .data_not_found {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 18px;
+    color: black;
+    height: 500px;
+  }
+  .leftDataAddons {
+    max-height: none;
+    overflow-y: none;
+    overflow-x: none;
+    margin-left: 0px;
+  }
+  
+.AddOnslabel {
+  font-family: Roboto;
+  font-size: 13px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  /* letter-spacing: 1.12px; */
+  text-align: left;
+  color: #454d58;
+  margin: 20px 0 2px 0;
+}
+.AddOnsValue {
+  font-family: Roboto;
+  font-size: 14px;
+  font-weight: 500;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: left;
+  color: #000000;
+  margin: 0 0 2px 0;
+}
+.programInfoButtonUpdateHousehold{
+  width:190px;
+  border-radius: 30px;
+  border: solid 2px #41b5c2;
+  font-family: Tungsten;
+  font-size: 20px;
+  font-weight: 600;
+  text-align: center;
+  color: #41b5c2;
+  background-color: #ffffff;
+  padding: 7px 7px 7px 4px;
+  margin-bottom: 30px;
+  margin-top: 15px;
+}
+}
+@media only screen and (max-width: 767px) {
+  .commonWrap {
+    padding: 0 0 55px 0;
+    margin-bottom: -58px !important;
+  }
+  .progInfoSection {
+    padding: 20px;
+    background: #ffffff;
+    /* margin-top: 15px; */
+  }
+  .leftData {
+    max-height: none;
+    overflow-y: none;
+    overflow-x: none;
+  }
+  .leftDataAddons {
+    max-height: none;
+    overflow-y: none;
+    overflow-x: none;
+    margin-left: 0px;
+  }
+  .progInfoSection_mob {
+    padding: 1px;
+    background: #ffffff;
+    border-radius: 4px 4px 0 0;
+    max-height: 100%;
+    margin-top: 15px;
+    /* max-height:400px;
+  overflow:auto; */
+  }
+  .data_not_found {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 18px;
+    color: black;
+    height: 500px;
+  }
+  .leftDataAddons {
+    max-height: none;
+    overflow-y: none;
+    overflow-x: none;
+    margin-left: 0px;
+  }
+  
+.AddOnslabel {
+  font-family: Roboto;
+  font-size: 13px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  /* letter-spacing: 1.12px; */
+  text-align: left;
+  color: #454d58;
+  margin: 20px 0 2px 0;
+}
+.AddOnsValue {
+  font-family: Roboto;
+  font-size: 14px;
+  font-weight: 500;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: left;
+  color: #000000;
+  margin: 0 0 2px 0;
+}
+.programInfoButtonUpdateHousehold{
+  width:190px;
+  border-radius: 30px;
+  border: solid 2px #41b5c2;
+  font-family: Tungsten;
+  font-size: 20px;
+  font-weight: 600;
+  text-align: center;
+  color: #41b5c2;
+  background-color: #ffffff;
+  padding: 7px 7px 7px 4px;
+  margin-bottom: 30px;
+  margin-top: 15px;
+}
+}
